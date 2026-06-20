@@ -54,13 +54,6 @@ chmod +x compilar.sh
 ./compilar.sh
 ```
 
-### Manualmente
-
-```bash
-mkdir -p out
-javac -encoding UTF-8 -d out src/Main.java src/model/*.java src/view/*.java src/controller/*.java
-java -cp out Main
-```
 
 **Requisito:** Java 11 ou superior instalado.
 
